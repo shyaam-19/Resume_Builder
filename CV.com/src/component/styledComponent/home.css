@@ -1,0 +1,165 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    font-family:Arial;
+}
+.firstText{
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.innerText{
+    width: 80%;
+}
+.firstImage{
+    width: 45%;
+    margin-right: 5%;
+}
+.Heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.Heading-2{
+    font-size: 25px;
+    /* font-weight: 300; */
+}
+.button-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: 100%;
+
+}
+.button-1-div{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.button-2-div{
+    width: 45%;
+}
+
+.button-1{
+    background-color: #440CCC !important;
+}
+
+.button-2{
+    border: 2px solid #440CCC !important;
+    color: black !important;
+    font-weight: 500 !important;
+    /* text-transform: none !important; */
+}
+
+.button-1 , .button-2{
+    width: 95%;
+    padding: auto;
+    height: 50px;
+    font-weight: 800;
+    transition-duration: 0.4s !important;
+    border-radius: 10px !important;
+}
+
+.button-1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+}
+.button-2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+}
+
+
+
+
+@media screen and (max-width : 1000px) {
+    
+    .button-1-div{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+    
+    .button-2-div{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    
+    .firstImage{
+        width: 100%;
+    }
+    .firstText{
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .Heading{
+        font-size: 30px;
+    }
+    .Heading-2{
+        font-size: 17px;
+        margin-top: 1rem;
+        /* font-weight: 300; */
+    }
+    .innerText{
+        width: 90%;
+    }
+    .button-div{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        width: 100%;
+    
+    }
+    .button-1-div{
+        width: 45%;
+        margin-right: 5%;
+    }
+    
+    .button-2-div{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width:530px){
+    .firstImage{
+        width: 100%;
+    }
+    .firstText{
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .Heading{
+        font-size: 30px;
+    }
+    .Heading-2{
+        font-size: 17px;
+        margin-top: 1rem;
+        /* font-weight: 300; */
+    }
+    .innerText{
+        width: 90%;
+    }
+    .button-div{
+        width: 100%;
+    }
+    
+    .button-1-div{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+    
+    .button-2-div{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
